@@ -100,7 +100,7 @@
     // Class filter
     var classIsotope = $('.class-container').isotope({
         itemSelector: '.class-item',
-        layoutMode: 'fitRows'
+        layoutMode: 'masonry'
     });
 
     $('#class-filter li').on('click', function () {

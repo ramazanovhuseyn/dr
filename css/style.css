@@ -1904,8 +1904,7 @@ a:focus {
 }
 
 .footer .container-fluid {
-    padding: 90px 0 0 0;
-    background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9)), url(../img/footer-bg.png);
+    background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9));
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1915,6 +1914,7 @@ a:focus {
     position: relative;
     width: 100%;
     text-align: center;
+    top:38px;
 }
 
 .footer .footer-info .footer-logo {
@@ -1948,7 +1948,7 @@ a:focus {
 
 .footer .footer-menu p {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 1em;
     font-weight: 600;
     line-height: 20px;
     padding: 0 10px;
@@ -1989,8 +1989,8 @@ a:focus {
 }
 
 .footer .copyright .row {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-top: 1px solid rgba(256, 256, 256, .1);
 }
 
