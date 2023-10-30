@@ -98,16 +98,16 @@
     
     
     // Class filter
-    var classIsotope = $('.class-container').isotope({
-        itemSelector: '.class-item',
-        layoutMode: 'masonry'
-    });
+    // var classIsotope = $('.class-container').isotope({
+    //     itemSelector: '.class-item',
+    //     layoutMode: 'fitRows'
+    // });
 
-    $('#class-filter li').on('click', function () {
-        $("#class-filter li").removeClass('filter-active');
-        $(this).addClass('filter-active');
-        classIsotope.isotope({filter: $(this).data('filter')});
-    });
+    // $('#class-filter li').on('click', function () {
+    //     $("#class-filter li").removeClass('filter-active');
+    //     $(this).addClass('filter-active');
+    //     classIsotope.isotope({filter: $(this).data('filter')});
+    // });
     
     
     // Portfolio filter
