@@ -17,8 +17,13 @@ $(document).ready(function() {
 });
 
 function scrollToDiv(element) {
-    var offset = $(window).width() > 768 ? 50 : 0;
-    $('html, body').animate({
-        scrollTop: element.offset().top - offset
-    }, 1000);
+    var offset = $(window).width() > 768 ? 50 : 65;
+            $('html, body').animate({
+            scrollTop: element.offset().top - offset
+        }, 1000);
 }
+
+//close navbar when click on submenus
+$('.navbar-nav a').on('click', function(){
+    $('.navbar-collapse').removeClass('show')
+});

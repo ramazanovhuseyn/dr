@@ -46,7 +46,6 @@
         $(window).resize(toggleNavbarMethod);
     });
 
-
     // Testimonials carousel
     $(".testimonials-carousel").owlCarousel({
         center: true,
